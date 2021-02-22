@@ -1,0 +1,65 @@
+.principle {
+  padding-top: 94px;
+
+  &__card {
+    display: flex;
+    margin-right: 30px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    width: 270px;
+    height: 120px;
+
+    box-sizing: border-box;
+    background: $secondary-bg-color;
+    border-radius: 4px;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    width: calc((100% - 30px * 2) / 4);
+    margin-right: 30px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  &__title {
+    color: $title-text-color;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  &__icon {
+    display: block;
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.item-principle::before {
+  display: block;
+  height: 120px;
+}
+.item-principle:nth-child(4n) {
+  margin-right: 0;
+}

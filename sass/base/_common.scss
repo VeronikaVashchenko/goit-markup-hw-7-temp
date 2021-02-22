@@ -1,0 +1,45 @@
+body {
+  background-color: $primary-bg-color;
+  color: $primary-text-color;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.img {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  border-style: none;
+  border-radius: 4px;
+  padding: 6px 22px;
+  display: inline-block;
+  text-align: center;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
